@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_fill"
+    android:orientation="vertical" >
+    <com.sinoglobal.app.widget.MarqueeText android:id="@id/tv1" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center" android:background="#ffffff" android:text="2014年3月15日         航班信息通知"
+        android:padding="8dp" android:singleLine="true" android:ellipsize="marquee"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:background="@color/text_blue" android:paddingTop="8dp"
+        android:paddingBottom="8dp" android:gravity="center">
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+        android:gravity="center" android:text="@string/airline"
+        android:textColor="@color/text_white" android:textSize="12sp"/>
+        <TextView android:id="@id/tv3" android:layout_width="0dp" android:layout_weight="1.2" android:layout_height="wrap_content"
+        android:gravity="center" android:text="@string/from"
+        android:textColor="@color/text_white" android:textSize="12sp"/>
+        <TextView  android:layout_width="0dp" android:layout_weight="0.8" android:layout_height="wrap_content"
+        android:gravity="center" android:text="@string/flight_num"
+        android:textColor="@color/text_white" android:textSize="12sp"/>
+        <TextView android:id="@id/tv4" android:layout_width="0dp" android:layout_weight="0.7" android:layout_height="wrap_content"
+        android:gravity="center" android:text="@string/plan_time"
+        android:textColor="@color/text_white" android:textSize="12sp"/>
+        <TextView android:id="@id/tv5" android:layout_width="0dp" android:layout_weight="0.6" android:layout_height="wrap_content"
+        android:gravity="center" android:text="@string/valve"
+        android:textColor="@color/text_white" android:textSize="12sp"/>
+        <TextView android:id="@id/tv6"  android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+        android:gravity="center" android:text="@string/flight_state"
+        android:textColor="@color/text_white" android:textSize="12sp"/>
+    </LinearLayout>
+
+</LinearLayout>

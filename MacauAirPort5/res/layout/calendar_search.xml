@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/text_white">
+    
+    <GridView 
+        android:id="@+id/gv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:numColumns="7"
+        android:gravity="center">
+        </GridView>
+    <GridView 
+        android:id="@+id/gv_data"
+        android:layout_below="@id/gv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:numColumns="7"
+        android:gravity="center">
+        </GridView>
+     <include android:id="@id/l1" android:layout_width="match_parent" android:layout_height="wrap_content"
+        layout="@layout/head_fliht_list"/> 
+    <ListView android:id="@id/listview" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:scrollbars="none" android:cacheColorHint="#00000000" android:listSelector="#00000000" >
+        
+    </ListView>
+    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

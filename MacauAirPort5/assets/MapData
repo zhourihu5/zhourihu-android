@@ -1,0 +1,202 @@
+{
+    "resumeMapUrl": "/map/main.jpg",
+    "width": "300.0",
+    "height": "400.0",
+    "location": [
+        {
+            "locx": "123.0",
+            "locy": "44.0",
+            "classcode": "cy",
+            "mapId": "0"
+        },
+        {
+            "locx": "23.0",
+            "locy": "144.0",
+            "classcode": "lklx",
+            "mapId": "0"
+        },
+        {
+            "locx": "223.0",
+            "locy": "144.0",
+            "classcode": "ggqy",
+            "mapId": "0"
+        },
+        {
+            "locx": "123.0",
+            "locy": "344.0",
+            "classcode": "cy",
+            "mapId": "0"
+        },
+        {
+            "locx": "203.0",
+            "locy": "44.0",
+            "classcode": "ggqy",
+            "mapId": "0"
+        },
+        {
+            "locx": "123.0",
+            "locy": "404.0",
+            "classcode": "sb",
+            "mapId": "0"
+        },
+        {
+            "locx": "203.0",
+            "locy": "144.0",
+            "classcode": "jt",
+            "mapId": "0"
+        },
+        {
+            "locx": "223.0",
+            "locy": "194.0",
+            "classcode": "sb",
+            "mapId": "0"
+        },
+        {
+            "locx": "183.0",
+            "locy": "344.0",
+            "classcode": "jt",
+            "mapId": "0"
+        },
+        {
+            "locx": "23.0",
+            "locy": "44.0",
+            "classcode": "lklx",
+            "mapId": "0"
+        }
+    ],
+    "detailMap": [
+        {
+            "fromX": "0.0",
+            "fromY": "0.0",
+            "toX": "300.0",
+            "toY": "133.0",
+            "detailMapUrl": "/map/level1.jpg",
+            "detailWidth": "300.0",
+            "detailHeight": "400.0",
+            "location": [
+                {
+                    "locx": "123.0",
+                    "locy": "44.0",
+                    "classcode": "cy",
+                    "mapId": "10",
+                    "title": "机场中转站2",
+                    "imgUrl": "/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "机场中转站222机场中转站机场中转站机22222222222222场中转站机场中转站机场中转站"
+                },
+                {
+                    "locx": "23.0",
+                    "locy": "144.0",
+                    "classcode": "lklx",
+                    "mapId": "11",
+                    "title": "机场中转站3",
+                    "imgUrl": "/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "机场中转站3333333机场中转站机场中转站机33333333333场中转站机场中转站机场中转站"
+                },
+                {
+                    "locx": "23.0",
+                    "locy": "44.0",
+                    "classcode": "lklx",
+                    "mapId": "9",
+                    "title": "一层二服务站",
+                    "imgUrl": "/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站"
+                }
+            ]
+        },
+        {
+            "fromX": "0.0",
+            "fromY": "133.0",
+            "toX": "300.0",
+            "toY": "266.0",
+            "detailMapUrl": "/map/level2.jpg",
+            "detailWidth": "300.0",
+            "detailHeight": "400.0",
+            "location": [
+                {
+                    "locx": "223.0",
+                    "locy": "144.0",
+                    "classcode": "ggqy",
+                    "mapId": "12",
+                    "title": "二层机场中转站",
+                    "imgUrl": "/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "二层机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站"
+                },
+                {
+                    "locx": "123.0",
+                    "locy": "344.0",
+                    "classcode": "cy",
+                    "mapId": "13",
+                    "title": "一层二服务站",
+                    "imgUrl": "/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "二层二服务站二层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站"
+                },
+                {
+                    "locx": "203.0",
+                    "locy": "44.0",
+                    "classcode": "ggqy",
+                    "mapId": "14",
+                    "title": "机场中转站2",
+                    "imgUrl": "/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "机场中转站222机场中转站机场中转站机22222222222222场中转站机场中转站机场中转站"
+                },
+                {
+                    "locx": "123.0",
+                    "locy": "404.0",
+                    "classcode": "sb",
+                    "mapId": "15",
+                    "title": "二层机场中转站3",
+                    "imgUrl": "/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "二层机场中转站3333333机场中转站机场中转站机33333333333场中转站机场中转站机场中转站"
+                }
+            ]
+        },
+        {
+            "fromX": "0.0",
+            "fromY": "266.0",
+            "toX": "300.0",
+            "toY": "400.0",
+            "detailMapUrl": "/map/level3.jpg",
+            "detailWidth": "300.0",
+            "detailHeight": "400.0",
+            "location": [
+                {
+                    "locx": "203.0",
+                    "locy": "144.0",
+                    "classcode": "jt",
+                    "mapId": "16",
+                    "title": "三层机场中转站",
+                    "imgUrl": "/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "三层机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站"
+                },
+                {
+                    "locx": "223.0",
+                    "locy": "194.0",
+                    "classcode": "sb",
+                    "mapId": "17",
+                    "title": "三层二服务站",
+                    "imgUrl": "/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "三层二服务站二层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站"
+                },
+                {
+                    "locx": "183.0",
+                    "locy": "344.0",
+                    "classcode": "jt",
+                    "mapId": "18",
+                    "title": "三层机场中转站2",
+                    "imgUrl": "/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "机场中转站222机场中转站机场中转站机22222222222222场中转站机场中转站机场中转站"
+                }
+            ]
+        }
+    ]
+}

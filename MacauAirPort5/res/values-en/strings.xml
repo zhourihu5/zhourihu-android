@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="available">Sorry,this App is not autorized.</string>
+    <!-- tab 切换 -->
+    <string name="app_name">Macau International Airport</string>
+    <string name="home">Home</string>
+    <string name="flight">Flights</string>
+    <string name="news">News</string>
+    <string name="service">Services</string>
+    <string name="more">More</string>
+    <!-- 右上角的离开 -->
+    <string name="leave">Close</string>
+    <!-- 航班详情里的澳门 -->
+    <string name="Macau">Macau</string>
+
+    <!-- 首页有关的 -->
+    <string name="home_arrive_realtime">Real Time Arrival</string>
+    <string name="home_departure_realtime">Real Time Departure</string>
+    <string name="home_air_plan">Flight Schedule</string>
+    <string name="home_map">Airport Map</string>
+    <string name="home_questionaire">Questionnaire</string>
+    <string name="home_hotline">Hotline</string>
+
+    <!-- 航班有关的 -->
+    <string name="flight_title">Flight Information</string>
+    <string name="flight_arrive_realtime">Real Time Arrival</string>
+    <string name="flight_departure_realtime">Real Time Departure</string>
+    <string name="flight_from_macau">Departures</string>
+    <string name="flight_to_macau">Arrival</string>
+    <string name="flight_search_info_city">Search by city</string>
+    <string name="flight_search_info_number">Search by Flight No.</string>
+    <string name="flight_city_to">Destination:</string>
+    <string name="flight_city_from">Origin:</string>
+    <string name="flight_number_hint">Input Flight No.</string>
+    <string name="search">Searching</string>
+    <string name="search_introduction">Help</string>
+    <!-- 新闻有关 -->
+    <string name="news_airport">Airport News</string>
+    <string name="news_important">Important Information</string>
+     <string name="news_more">Please visit MIA website for more details</string>
+    <!-- 服务相关 -->
+    <string name="service_facility">Facilities</string>
+    <string name="service_map">Map</string>
+    <string name="service_shop">Duty Free</string>
+    <string name="service_restaurants">Dinning</string>
+    <string name="service_transportation">Transportation</string>
+    <string name="service_vip_room">Airport Lounge</string>
+    <string name="Travel_Service">Travel Booking Service</string>
+    <string name="Airport_Service">Limousine Service</string>
+     <string name="Express_Link">Express Link Service</string>
+    <string name="Airport_Lounge">Airport Lounge</string>
+    <string name="Coming_soon">Coming soon</string>
+    <!-- 更多相关 -->
+    <string name="more_language">Language</string>
+    <string name="more_questionnaire">Questionnaire</string>
+    <string name="more_book">Travel Booking</string>
+    <string name="more_link">Hotline</string>
+    <string name="more_version">Version</string>
+    <string name="more_about"> About Macau International Airport</string>
+     <string name="disclaimer">Disclaimer</string>
+    <string name="disclaimer_of_interest">
+       "All contents copyright © 2014 Macau International Airport Company Limited. All rights reserved. Powered by AIMS
+\n\n Disclaimer:You expressly understand and agree that: some of the content of this application are contribution by third party and in respect of which of those has no control. Use of information is at your own risk.
+\n\nThe Operator grants you a limited, non-exclusive, non-transferable right to use this site in accordance with the Terms of Use. You agree that you:
+\n(a) shall only use this Site to make legitimate reservations or purchases and shall not use this Site for any other purposes, including without limitation, to make any speculative, false or fraudulent reservation or any reservation in anticipation of demand or transmit junk mail, chain letters or other unsolicited bulk email or duplicative messages.
+\n(b) shall not provide false information about yourself or impersonate any other person or otherwise attempt to mislead others about your identity or the origin of any content, message or other communication or employ misleading email addresses or falsify information in the header, footer, return path, or any part of any communication, including but not limited to emails, transmitted through or to this Site.
+\n(c) shall not, except as permitted under applicable law, copy, reproduce, republish, upload, post, transmit distribute or otherwise communicate to the public any of the content provided in this Site, including the text, graphics, button icons, audio and video clips, digital downloads, data compilations and software, without the prior written permission of the Operator and/or its third party providers and distributors, except that you may download, display and print the materials presented on this Site for your personal, non-commercial use only.
+\n(d) shall not use any "robot," "spider", "crawler" or other automated device, or a program, algorithm or methodology having similar processes or functionality, or any manual process, to monitor or copy any of the web pages, data or content found on this site, in any case without the prior written permission of the Operator or in any way collect information about other visitors to the Site without their consent or otherwise systematically extract data or data fields, including without limitation any financial data or email addresses.
+\n(e) shall not, except as permitted under applicable law, alter, modify, translate, decompile, adapt, disassemble, reverse engineer or create derivative works from any content or component from this Site.
+\n(f) shall not sell access to or use of this Site or post, upload, transmit or otherwise transfer any web pages, data or content found on this Site to any other computer, server, web site, or other medium for mass distribution or for use in any commercial enterprise. The use of such materials on any other web site or in any environment of networked computers is prohibited.
+\n(g) shall not use any device, software or routine to interfere or attempt to interfere with the proper working of this Site or attempt to gain unauthorized access to any portion of this Site, its computer systems, servers or networks.
+\n(h) shall not take any action that imposes a burden or load on our infrastructure that the Operator deems in their sole discretion to be unreasonable or disproportionate to the benefits the Operator obtains from your use of the Site or alter the format in which data is provided by the Operator or otherwise circumvent the Operator's regular interfaces to such data.
+\n(i) shall not make any unauthorized use of this Site and/or the materials contained on this Site to violate applicable copyright, trademark or other intellectual property laws or other laws. You must retain all copyright and trademark notices, including any other proprietary notices, contained in the materials, and you must not alter, obscure or obliterate any of such notices.
+\n(j) shall not post, upload or otherwise transmit through or to this Site anything unlawful or threatening, libelous, defamatory, obscene, indecent, inflammatory, pornographic or profane material or any material that could constitute or encourage conduct that would be considered a criminal offence, give rise to civil liability, or otherwise violate any law or applicable regulation or code of conduct.
+\n(k) shall not post, upload or otherwise transmit through or to this Site any information or content which 
+\n(i) infringes the rights of others or violates their privacy or publicity rights,
+\n(ii) is protected by copyright, trademark or other proprietary right, unless with the express written permission of the owner of such right,
+\n(iii) contains a virus, bug, worm , time bomb, Trojan horse, trap door or other harmful programs, elements or items, 
+\n(iv) is used to unlawfully collude against another person in restraint of trade or competition, or
+\n(v) creates any liability on the Operator or causes the Operator to lose (in whole or in part) the services of our internet service providers or other suppliers.
+\n\nYou agree that you shall be solely liable for any damages resulting from any infringement of copyright, trademark, or other proprietary right, or any other loss or harm resulting from your use of this Site.
+       
+        </string>
+    <string name="copyright">All contents copyright © 2014 Macau International Airport Company Limited. All rights reserved. Powered by AIMS</string>
+    <string name="travel_book_info">When you selected destination, you can search and book flights , hotels . travel insurance and car hire on the ebiz.macau-airport.com.</string>
+    <string name="about_introduction" >"CAM (Official name: Sociedade do Aeroporto Internacional de Macau S.A.R.L.) is a private company founded on 18th January 1989 with initial share capital of MOP4,000 million.  After capital increase in 2012, CAM’s share capital is MOP4.96 billion. CAM is the public concessionaire of Macau International Airport, which it built and manages under a 50-year government concession, until 2039. Airport development, financing, and marketing are the main responsibilities directly executed by CAM, while most of the operational and commercial activities are under contracts or sub-concession to specialized operators in order to ensure efficient running of the airport to international standards.
+\n\nCAM vigorously promotes and markets Macau International Airport to the worldwide aviationcommunity. Providing world-class service quality is a top corporate priority, and remains the cornerstone of CAM's continuous effort to improve passenger and cargo services and facilities.
+\n\nCAM subcontructs key airport operations to various specialist service providers in order toensure efficient running of the airport to international standards.</string>
+    
+    
+    <!-- 旅行预订相关 -->
+    <string name="travel_book">Plan your Trip</string>
+    <!-- 航班列表 -->
+    <string name="airline">Airline</string>
+    <string name="from">Origin</string>
+    <string name="to">Destination</string>
+    <string name="flight_num">Flight Number</string>
+    <string name="plan_time">Time</string>
+    <string name="valve">Gate</string>
+    <string name="flight_state">Flight Status</string>
+    <string name="flight_start_time">Departure Time</string>
+    <string name="flight_end_time">Arrival Time</string>
+    <string name="flight_information">Flight Information</string>
+    <string name="no_flight_day">亲，该日没有航班</string>  
+    <string name="not_valid_flight_number">The number you\'ve entered is not a valid flight number, please try again.</string> 
+    <!-- 航班详情 -->
+    <string name="check_in_counter">值機櫃檯：</string>
+    <string name="boarding_gate">Gate：</string>
+    <string name="arrive_time">Arrival Time</string>
+    <string name="departure_time">Departure Time</string>
+    <string name="flight_detail_state">Flight Status:</string>
+    <!-- 机场设施 -->
+    <string name="cafe">Café</string>
+    <string name="bank">Bank</string>
+    <string name="tourist_information">Tourist information</string>
+    <string name="atm">ATM</string>
+    <string name="circle_k">Circle K</string>
+    <string name="fast_food">Fast Food</string>
+    <string name="currency_exchange">Currency Exchange</string>
+    <string name="virtual_assistance">Virtual Assistance</string>
+    <string name="beverage_vending_machine">Beverage Vending Machine</string>
+    <string name="book_shop">Book shop</string>
+    <string name="mc_donalds">Mc Donald\'s</string>
+    <string name="smoking_lounge">Smoking Lounge</string>
+    <string name="airport_lounge">Airport Lounge</string>
+    <string name="red_cross_society">Red Cross Society</string>
+    <string name="toilets">Toilets</string>
+    <string name="left_baggage">Left Baggage</string>
+    <string name="lost_found">Lost &amp; Found</string>
+    <string name="parking">Parking</string>
+    <string name="mobile_phone_charging_wifi">Mobile Phone Charging &amp; Wi-Fi</string>
+    <string name="post_office">Post Office</string>
+    <string name="vip_lounge">VIP Lounge</string>
+    <string name="telephone">Telephone</string>
+    <string name="duty_free">Duty Free</string>
+
+    <!-- 星期 -->
+    <string name="Mon">Mon</string>
+    <string name="Tue">Tue</string>
+    <string name="Wed">Wed</string>
+    <string name="Thu">Thu</string>
+    <string name="Fri">Fri</string>
+    <string name="Sat">Sat</string>
+    <string name="Sun">Sun</string>
+    <string name="today">today</string>
+    <!-- 机场交通 -->
+    <string name="traffic_direct_fast_line">Express Link</string>
+    <string name="traffic_airport_limo_service">Limousine</string>
+    <string name="traffic_bus">Bus</string>
+    <string name="traffic_taxi">Taxis</string>
+    <string name="traffic_cross_border_coach">Shuttle Bus</string>
+    <string name="book_now">Book Now</string>
+    <!-- 机场电话 -->
+    <string name="hotline_tel_airline">Contact No.</string>
+    <string name="hotline_tel_emergency">Emergency Call</string>
+    <string name="emergency_text">999    SOS</string>
+    <string name="questionNaire_unavailable">亲，当前没有问卷哦！</string>
+    <string name="version_update_info">There is a new version, update?</string>
+    <string name="update">Update</string>
+    <string name="flash_is_need_to_display_the_map">需要下载Flash才能访问该地图</string>
+    <string name="download">下载</string>
+    <string name="version_is_new">Current vesion is the latest</string>
+    <!-- 城市列表 -->
+    <string name="city_title_from">Cities</string>
+    <string name="city_title_to">Cities</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="error">Loading data error，Try again later...</string>
+    <string name="load">Loading...</string>
+    <string name="no_data">Connection Error</string>
+    <string name="please_wait">Loading ...</string>
+    <string name="pull_to_next">点击获取更多...</string>
+    <string name="pull_to_loading">Loading...</string>
+    <string name="failure">>Loading data error，Try again later!</string>
+    <string name="no_connections_for_flight">网络好像不给力哦，如需预订机票请拨打热线400-6858-999</string>
+    <string name="no_connections_for_hotel">网络好像不给力哦，如需预订酒店请拨打热线400-6858-999</string>
+    <string name="no_connections_for_car">网络好像不给力哦，如需预订租车请拨打热线400-6858-999</string>
+    <string name="no_connections">Net is not available.</string>
+    <string name="timeout_exit">长时间未操作，为您账号安全，已自动退出，请重新登录！</string>
+    <string name="btn_sure_text">确定</string>
+    <string name="btn_cancle">Cancle</string>
+ <!--    下拉刷新等提示 -->
+ <!-- 下拉刷新 Pull to refresh
+鬆開刷新 Loose to refresh
+上次刷新時間 Last refresh time
+本次刷新時間 This refresh time
+正在刷新 Refreshing -->
+ 
+  <string name="pull_to_refresh">Pull to refresh </string>
+  <string name="loose_to_refresh">Loose to refresh</string>
+  <string name="last_refresh_time">Last refresh time: </string>
+  <string name="this_refresh_time">This refresh time: </string>
+  <string name="refresh_time">Refresh time: </string>
+  <string name="refreshing">Refreshing...</string>
+</resources>

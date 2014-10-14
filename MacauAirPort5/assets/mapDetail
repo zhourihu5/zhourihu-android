@@ -1,0 +1,160 @@
+{
+    "resumeMapUrl": "/resources/map/main.jpg",
+    "width": "300.0",
+    "height": "400.0",
+    "detailMap": [
+        {
+            "fromX": "0.0",
+            "fromY": "0.0",
+            "toX": "300.0",
+            "toY": "133.0",
+            "detailMapUrl": "/resources/map/level1.jpg",
+            "detailWidth": "300.0",
+            "detailHeight": "400.0",
+            "content": [
+                {
+                    "detailFromX": "0.0",
+                    "detailFromY": "0.0",
+                    "detailToX": "100.0",
+                    "detailToY": "100.0",
+                    "title": "机场中转站",
+                    "imgUrl": "/resources/map/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站"
+                },
+                {
+                    "detailFromX": "100.0",
+                    "detailFromY": "0.0",
+                    "detailToX": "300.0",
+                    "detailToY": "100.0",
+                    "title": "一层二服务站",
+                    "imgUrl": "/resources/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站"
+                },
+                {
+                    "detailFromX": "0.0",
+                    "detailFromY": "100.0",
+                    "detailToX": "200.0",
+                    "detailToY": "400.0",
+                    "title": "机场中转站2",
+                    "imgUrl": "/resources/map/service/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "机场中转站222机场中转站机场中转站机22222222222222场中转站机场中转站机场中转站"
+                },
+                {
+                    "detailFromX": "200.0",
+                    "detailFromY": "100.0",
+                    "detailToX": "300.0",
+                    "detailToY": "400.0",
+                    "title": "机场中转站3",
+                    "imgUrl": "/resources/map/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "机场中转站3333333机场中转站机场中转站机33333333333场中转站机场中转站机场中转站"
+                }
+            ]
+        },
+        {
+            "fromX": "0.0",
+            "fromY": "133.0",
+            "toX": "300.0",
+            "toY": "266.0",
+            "detailMapUrl": "/resources/map/level2.jpg",
+            "detailWidth": "300.0",
+            "detailHeight": "400.0",
+            "content": [
+                {
+                    "detailFromX": "0.0",
+                    "detailFromY": "0.0",
+                    "detailToX": "100.0",
+                    "detailToY": "100.0",
+                    "title": "二层机场中转站",
+                    "imgUrl": "/resources/map/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "二层机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站"
+                },
+                {
+                    "detailFromX": "100.0",
+                    "detailFromY": "0.0",
+                    "detailToX": "300.0",
+                    "detailToY": "100.0",
+                    "title": "一层二服务站",
+                    "imgUrl": "/resources/map/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "二层二服务站二层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站"
+                },
+                {
+                    "detailFromX": "0.0",
+                    "detailFromY": "100.0",
+                    "detailToX": "200.0",
+                    "detailToY": "400.0",
+                    "title": "机场中转站2",
+                    "imgUrl": "/resources/map/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "机场中转站222机场中转站机场中转站机22222222222222场中转站机场中转站机场中转站"
+                },
+                {
+                    "detailFromX": "200.0",
+                    "detailFromY": "100.0",
+                    "detailToX": "300.0",
+                    "detailToY": "400.0",
+                    "title": "二层机场中转站3",
+                    "imgUrl": "/resources/map/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "二层机场中转站3333333机场中转站机场中转站机33333333333场中转站机场中转站机场中转站"
+                }
+            ]
+        },
+        {
+            "fromX": "0.0",
+            "fromY": "266.0",
+            "toX": "300.0",
+            "toY": "400.0",
+            "detailMapUrl": "/resources/map/level3.jpg",
+            "detailWidth": "300.0",
+            "detailHeight": "400.0",
+            "content": [
+                {
+                    "detailFromX": "0.0",
+                    "detailFromY": "0.0",
+                    "detailToX": "100.0",
+                    "detailToY": "100.0",
+                    "title": "三层机场中转站",
+                    "imgUrl": "/resources/map/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "三层机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站机场中转站"
+                },
+                {
+                    "detailFromX": "100.0",
+                    "detailFromY": "0.0",
+                    "detailToX": "300.0",
+                    "detailToY": "100.0",
+                    "title": "三层二服务站",
+                    "imgUrl": "/resources/map/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "三层二服务站二层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站一层二服务站"
+                },
+                {
+                    "detailFromX": "0.0",
+                    "detailFromY": "100.0",
+                    "detailToX": "200.0",
+                    "detailToY": "400.0",
+                    "title": "三层机场中转站2",
+                    "imgUrl": "/resources/map/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "机场中转站222机场中转站机场中转站机22222222222222场中转站机场中转站机场中转站"
+                },
+                {
+                    "detailFromX": "200.0",
+                    "detailFromY": "100.0",
+                    "detailToX": "300.0",
+                    "detailToY": "400.0",
+                    "title": "三层机场中转站3",
+                    "imgUrl": "/resources/map/kkkk.jpg",
+                    "tel": "65457665,987887888",
+                    "introduction": "三层机场中转站3333333机场中转站机场中转站机33333333333场中转站机场中转站机场中转站"
+                }
+            ]
+        }
+    ]
+}

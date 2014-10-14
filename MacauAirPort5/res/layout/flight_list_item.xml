@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:background="@color/text_white" android:paddingTop="8dp"
+        android:paddingBottom="8dp" android:gravity="center" >
+        <ImageView android:id="@id/iv1" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+        android:gravity="center" android:src="@drawable/ic_launcher" android:scaleType="fitCenter" 
+        android:paddingLeft="5dp"  android:paddingRight="5dp"
+        android:textColor="@color/text_white" />
+        <LinearLayout android:layout_width="0dp" android:layout_weight="1.2" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center">
+            
+         <TextView android:id="@id/tv1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+         android:gravity="center" android:text="@string/from" android:textSize="@dimen/text_d"
+         />
+          <ImageView android:id="@id/iv2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" 
+            />
+        </LinearLayout>
+        <TextView android:id="@id/tv2" android:layout_width="0dp" android:layout_weight="0.8" android:layout_height="wrap_content"
+        android:gravity="center" android:text="@string/flight_num" android:textSize="@dimen/text_d"
+         />
+        <LinearLayout android:layout_width="0dp" android:layout_weight="0.7" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center">
+         <TextView android:id="@id/tv3" android:layout_width="wrap_content"  android:layout_height="wrap_content"
+         android:gravity="center" android:text="12:00" android:textSize="@dimen/text_d"
+         />
+         <TextView android:id="@id/tv4" android:layout_width="wrap_content"  android:layout_height="wrap_content"
+         android:gravity="center" android:text="17:00" android:textSize="@dimen/text_d"
+         android:layout_marginTop="8dp"/>
+         
+        </LinearLayout>
+        <TextView android:id="@id/tv5" android:layout_width="0dp" android:layout_weight="0.6" android:layout_height="wrap_content"
+        android:gravity="center" android:text="@string/valve" android:textSize="@dimen/text_d"
+        />
+        <TextView android:id="@id/tv6" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+        android:gravity="center" android:text="@string/flight_state"  android:textSize="@dimen/text_d"
+        />
+    </LinearLayout>
+

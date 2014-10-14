@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp" android:layout_weight="2"
+    android:background="#ffffff"
+     >
+
+    <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+        android:id="@id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout android:id="@id/l1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"
+        android:layout_alignParentRight="true" android:layout_margin="8dp">
+        <TextView android:id="@id/tv1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="32°C"  android:textSize="18sp" android:textColor="@color/text_orange"
+        android:layout_marginRight="8dp" />
+        <ImageView android:id="@id/iv1" android:layout_width="48dp" android:layout_height="48dp"
+        android:src="@drawable/fine"
+        />
+       
+    </LinearLayout>
+     <ImageView  android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toRightOf="@id/l1" android:src="@drawable/logo"
+        />
+    <RelativeLayout
+        android:id="@+id/point_rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/viewpager" >
+
+        <RadioGroup
+            android:id="@id/rangeSeekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp" 
+            android:gravity="center">
+           <!--  <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:button="@drawable/point_normal"/> -->
+        </RadioGroup>
+    </RelativeLayout>
+
+</RelativeLayout>
+        <LinearLayout style="@style/layout_fill_wrap" android:orientation="vertical" android:gravity="center"
+            android:padding="@dimen/nine_margin" android:layout_height="wrap_content"  >
+            <LinearLayout style="@style/layout_fill_wrap" android:orientation="horizontal"
+               android:layout_weight="1" android:layout_height="0dp" android:id="@id/view1">
+                <LinearLayout android:id="@id/bt_id1" style="@style/nine_layout" android:orientation="horizontal"
+                    android:gravity="center" android:background="#3AB48D" >
+                     <TextView  style="@style/nine_button"
+                    android:text="@string/home_arrive_realtime" 
+                    android:drawableTop="@drawable/icon_arrive9"
+                    android:background="@null"
+                     />
+                </LinearLayout>
+                <LinearLayout android:id="@id/bt_id2" style="@style/nine_layout" android:orientation="horizontal"
+                    android:gravity="center" android:background="#1386C7" >
+                    <TextView style="@style/nine_button"
+                     android:drawableTop="@drawable/icon_leave9" 
+                     android:text="@string/home_departure_realtime"
+                     />
+                </LinearLayout>
+                <LinearLayout android:id="@id/bt_id3" style="@style/nine_layout" android:orientation="horizontal"
+                    android:gravity="center" android:background="#004DA1">
+                    <TextView style="@style/nine_button"
+                     android:drawableTop="@drawable/icon_departure9" 
+                    android:text="@string/home_air_plan" 
+                    />
+                </LinearLayout>
+                
+            </LinearLayout>
+            <LinearLayout style="@style/layout_fill_wrap" android:orientation="horizontal"
+                android:layout_weight="1" android:layout_height="0dp" android:id="@id/view2">
+                <LinearLayout android:id="@id/bt_id4" style="@style/nine_layout" android:orientation="horizontal"
+                    android:gravity="center" android:background="#C36363">
+                     <TextView style="@style/nine_button"
+                     android:drawableTop="@drawable/icon_facility9" 
+                    android:text="@string/service_facility" 
+                    />
+                </LinearLayout>
+                <LinearLayout android:id="@id/bt_id5"  style="@style/nine_layout" android:orientation="horizontal"
+                    android:gravity="center" android:background="#5FB9C5">
+                    <TextView style="@style/nine_button"
+                     android:drawableTop="@drawable/icon_map9" 
+                    android:text="@string/home_map" 
+                    />
+                </LinearLayout>
+                <LinearLayout android:id="@id/bt_id6" style="@style/nine_layout" android:orientation="horizontal"
+                    android:gravity="center" android:background="#009581">
+                    <TextView  style="@style/nine_button" 
+                    android:drawableTop="@drawable/icon_traffic9" 
+                    android:text="@string/service_transportation" 
+                   />
+                </LinearLayout>
+                
+            </LinearLayout>
+            <LinearLayout style="@style/layout_fill_wrap" android:orientation="horizontal"
+                android:layout_weight="1" android:layout_height="0dp" android:id="@id/view3">
+                 <LinearLayout android:id="@id/bt_id7"  style="@style/nine_layout" android:orientation="horizontal"
+                    android:gravity="center" android:background="#8EC31E">
+                    <TextView  style="@style/nine_button"
+                     android:drawableTop="@drawable/icon_book9" 
+                    android:text="@string/more_book"
+                    />
+                </LinearLayout>
+                <LinearLayout android:id="@id/bt_id8" style="@style/nine_layout" android:orientation="horizontal"
+                    android:gravity="center" android:background="#D1BC28">
+                    <TextView   style="@style/nine_button"
+                     android:drawableTop="@drawable/icon_aq9" 
+                    android:text="@string/home_questionaire"
+                    />
+                </LinearLayout>
+                <LinearLayout android:id="@id/bt_id9"  style="@style/nine_layout" android:orientation="horizontal"
+                    android:gravity="center" android:background="#C74F98">
+                    <TextView  style="@style/nine_button"
+                    android:drawableTop="@drawable/icon_phone9" 
+                    android:text="@string/home_hotline" 
+                    />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

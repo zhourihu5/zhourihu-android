@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@color/text_white">
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/text_blue" />
+
+        <Button
+            android:id="@id/btn_1"
+            style="@style/rectangle_line_blue"
+            android:background="@null"
+            android:text="@string/traffic_direct_fast_line" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/text_blue" />
+
+        <Button
+            android:id="@id/btn_2"
+            style="@style/rectangle_line_blue"
+            android:background="@null"
+            android:text="@string/traffic_airport_limo_service" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/text_blue" />
+
+        <Button
+            android:id="@id/btn_3"
+            style="@style/rectangle_line_blue"
+            android:background="@null"
+            android:text="@string/traffic_bus" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/text_blue" />
+
+        <Button
+            android:id="@id/btn_4"
+            style="@style/rectangle_line_blue"
+            android:background="@null"
+            android:text="@string/traffic_taxi" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/text_blue" />
+
+        <Button
+            android:id="@id/btn_5"
+            style="@style/rectangle_line_blue"
+            android:background="@null"
+            android:text="@string/traffic_cross_border_coach" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/text_blue" />
+    </LinearLayout>
+
+</ScrollView>
+<View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

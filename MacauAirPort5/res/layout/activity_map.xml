@@ -1,0 +1,52 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/text_white">
+        <RelativeLayout android:id="@id/rl_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <uk.co.senab.photoview.PhotoView android:id="@id/iv1" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:src="@drawable/map_all"  android:adjustViewBounds="true" android:scaleType="fitCenter"
+            android:maxHeight="2000dp" android:maxWidth="2000dp"
+            />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical"
+            android:layout_alignParentBottom="true" android:layout_alignParentRight="true"
+            android:background="@color/gray">
+            <RadioGroup android:id="@id/rangeSeekBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal"
+                android:gravity="center" android:background="@drawable/floor_bg">
+                   <RadioButton android:id="@id/cb_1" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+                       android:button="@drawable/cb_all_selector" 
+                       />
+                    
+                   <RadioButton android:id="@id/cb_2" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+                       android:button="@drawable/cb_gf_selector"  />
+                    
+                   <RadioButton android:id="@id/cb_3" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+                       android:button="@drawable/cb_f1_selector" />
+                    
+                   <RadioButton android:id="@id/cb_4" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+                       android:button="@drawable/cb_f2_selector" 
+                       />
+                    
+            </RadioGroup>
+            <Button android:id="@id/btn_1" android:layout_width="wrap_content" android:layout_height="22dp"
+                android:background="@drawable/btn_passenger_flow" android:visibility="gone"/>
+            <Button android:id="@id/btn_2" android:layout_width="match_parent" android:layout_height="22dp"
+                android:background="@drawable/btn_dining" />
+            <Button android:id="@id/btn_3" android:layout_width="match_parent" android:layout_height="22dp"
+                android:background="@drawable/btn_service" />
+            <Button android:id="@id/btn_4" android:layout_width="match_parent" android:layout_height="22dp"
+                android:background="@drawable/btn_transport"/>
+            <Button android:id="@id/btn_5" android:layout_width="match_parent" android:layout_height="22dp"
+                android:background="@drawable/btn_facility" android:visibility="gone"/>
+            <Button android:id="@id/btn_6" android:layout_width="match_parent" android:layout_height="22dp"
+                android:background="@drawable/btn_shopping"/>
+            <View android:id="@id/view1" android:layout_width="match_parent" android:layout_height="44dp" android:visibility="gone"/>
+        </LinearLayout>
+ </RelativeLayout>
+

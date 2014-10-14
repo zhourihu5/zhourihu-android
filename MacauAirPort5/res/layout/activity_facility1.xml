@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@color/text_white">
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/shape_rectangle">
+        
+        <Button
+            android:id="@id/btn_1"
+            android:text="@string/cafe"
+            style="@style/rectangle_line_blue"
+            android:background="@null" />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_2"
+            android:text="@string/bank"
+             style="@style/rectangle_line_blue"
+            android:background="@null" />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_3"
+            android:text="@string/tourist_information"
+             style="@style/rectangle_line_blue"
+             android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"
+             />
+        <Button
+            android:id="@id/btn_4"
+             style="@style/rectangle_line_blue"
+            android:text="@string/atm" 
+            android:background="@null" />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_5"
+             style="@style/rectangle_line_blue"
+            android:text="@string/circle_k" 
+            android:background="@null" />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_6"
+             style="@style/rectangle_line_blue"
+            android:text="@string/fast_food"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_7"
+             style="@style/rectangle_line_blue"
+            android:text="@string/currency_exchange"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_8"
+             style="@style/rectangle_line_blue"
+            android:text="@string/virtual_assistance"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_9"
+             style="@style/rectangle_line_blue"
+            android:text="@string/beverage_vending_machine"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_10"
+             style="@style/rectangle_line_blue"
+            android:text="@string/book_shop"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_11"
+             style="@style/rectangle_line_blue"
+            android:text="@string/mc_donalds"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_12"
+             style="@style/rectangle_line_blue"
+            android:text="@string/smoking_lounge"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_13"
+             style="@style/rectangle_line_blue"
+            android:text="@string/airport_lounge"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_14"
+             style="@style/rectangle_line_blue"
+            android:text="@string/red_cross_society"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_15"
+             style="@style/rectangle_line_blue"
+            android:text="@string/toilets"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_16"
+             style="@style/rectangle_line_blue"
+            android:text="@string/left_baggage"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_17"
+             style="@style/rectangle_line_blue"
+            android:text="@string/lost_found"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_18"
+             style="@style/rectangle_line_blue"
+            android:text="@string/parking"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_19"
+             style="@style/rectangle_line_blue"
+            android:text="@string/mobile_phone_charging_wifi"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_20"
+             style="@style/rectangle_line_blue"
+            android:text="@string/post_office"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_21"
+             style="@style/rectangle_line_blue"
+            android:text="@string/vip_lounge"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_22"
+             style="@style/rectangle_line_blue"
+            android:text="@string/telephone"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"/>
+        <Button
+            android:id="@id/btn_23"
+             style="@style/rectangle_line_blue"
+            android:text="@string/duty_free"
+            android:background="@null"  />
+        <View android:layout_width="match_parent" android:layout_height="0.2dp"
+            android:background="@color/text_blue"
+            />
+    </LinearLayout>
+</ScrollView>
+<View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

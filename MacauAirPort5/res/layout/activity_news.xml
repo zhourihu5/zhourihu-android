@@ -1,0 +1,97 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" 
+    android:background="@color/text_white">
+     <View  android:layout_width="match_parent" android:layout_height="8dp"
+        android:background="@drawable/flight_head_line"/>
+    <RadioGroup
+        android:id="@id/rangeSeekBar"
+        style="@style/layout_fill_wrap"
+        android:layout_centerHorizontal="true" 
+        android:orientation="horizontal" android:layout_height="48dp" 
+        android:gravity="center">
+        <RelativeLayout   android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp">
+        <RadioButton
+            android:id="@id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/tab_news_type_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@drawable/tab_flight_textcolor_selector" />
+            <RadioButton
+            android:id="@id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:clickable="false"
+            android:text="@string/news_airport"
+            android:textColor="@drawable/tab_flight_textcolor_selector" 
+            android:textSize="14sp"
+            android:drawableLeft="@drawable/tab_news_icon_selector" android:drawablePadding="8dp"
+            android:background="@null" android:button="@null"
+            android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout   android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp">
+        <RadioButton
+            android:id="@id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/tab_news_type_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@drawable/tab_flight_textcolor_selector" />
+           <RadioButton
+            android:id="@id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:clickable="false"
+            android:text="@string/news_important"
+            android:textColor="@drawable/tab_flight_textcolor_selector" 
+            android:textSize="14sp"
+            android:drawableLeft="@drawable/tab_news_vip_icon_selector" android:drawablePadding="8dp"
+            android:background="@null"
+            android:button="@null" 
+            android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RadioGroup>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <com.sinoglobal.app.widget.NoScrollListView
+                android:id="@id/listview"
+                style="@style/layout_fill"
+                android:scrollbars="none" />
+
+            <Button
+                android:id="@id/btn_1"
+                style="@style/rectangle_line_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:layout_marginTop="48dp"
+                android:text="@string/news_more" />
+        </LinearLayout>
+    </ScrollView>
+   <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+
+</LinearLayout>

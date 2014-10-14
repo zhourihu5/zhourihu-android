@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:shape="oval">
+     
+    <!-- 内部颜色 -->
+    <solid android:color="@color/text_blue" />
+    <!-- 边缘线条颜色 -->
+    <stroke
+        android:width="0.2dp"
+        android:color="@color/text_blue" 
+        />
+    <!-- 圆角的幅度 -->
+    <corners
+        android:bottomLeftRadius="8dip"
+        android:bottomRightRadius="8dip"
+        android:topLeftRadius="8dip"
+        android:topRightRadius="8dip" />
+    <padding android:left="8dp"
+        android:right="8dp"
+        android:top="8dp" 
+        android:bottom="8dp"/>
+</shape>

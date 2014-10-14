@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@color/text_white">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" 
+        android:background="@drawable/shape_rectangle">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+          <Button
+            android:id="@id/btn_1"
+            style="@style/rectangle_line_blue"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:background="@null"
+            android:text="@string/more_language" 
+            android:layout_centerVertical="true"/>
+          <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <com.sinoglobal.app.widget.SlipButton android:id="@id/side_bar" android:layout_width="wrap_content" android:layout_height="30dp"
+              android:layout_alignParentRight="true" android:layout_gravity="center_vertical" 
+              android:layout_marginRight="8dp"/>
+          </LinearLayout>
+          
+        </LinearLayout>
+
+
+        <Button
+            android:id="@id/btn_2"
+            style="@style/rectangle_line_blue"
+            android:background="@null"
+            android:text="@string/more_questionnaire" />
+
+
+        <Button
+            android:id="@id/btn_3"
+            style="@style/rectangle_line_blue"
+            android:background="@null"
+            android:text="@string/more_book" />
+
+
+        <Button
+            android:id="@id/btn_4"
+            style="@style/rectangle_line_blue"
+            android:background="@null"
+            android:text="@string/more_link" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/text_blue" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" 
+            android:id="@id/btn_5">
+            
+          <Button
+            style="@style/rectangle_line_blue"
+            android:layout_width="wrap_content"
+            android:background="@null"
+            android:text="@string/more_version" />
+          <TextView android:id="@+id/tvVersionName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="v2.0.0"
+              android:layout_alignParentRight="true" android:layout_centerVertical="true"
+              android:layout_marginRight="8dp"/> 
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/text_blue" />
+
+        <Button
+            android:id="@id/btn_7"
+            style="@style/rectangle_line_blue"
+            android:background="@null"
+            android:text="@string/disclaimer" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/text_blue" />
+
+        <Button
+            android:id="@id/btn_6"
+            style="@style/rectangle_line_blue"
+            android:background="@null"
+            android:text="@string/more_about" />
+    </LinearLayout>
+
+</ScrollView>
+<View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

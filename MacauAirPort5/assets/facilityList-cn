@@ -1,0 +1,42 @@
+[
+    {
+        "title": "免稅商店",
+        "classcode": "mssd"
+    },
+    {
+        "title": "高樂雅咖啡",
+        "classcode": "gyykf"
+    },
+    {
+        "title": "百福小廚",
+        "classcode": "bfxc"
+    },
+    {
+        "title": "麥當勞餐廳",
+        "classcode": "mdlct"
+    },
+    {
+        "title": "食通天",
+        "classcode": "stt"
+    },
+    {
+        "title": "澳門國際機場餐廳",
+        "classcode": "amgjjcct"
+    },
+    {
+        "title": "機場貴賓室",
+        "classcode": "jcgbs"
+    },
+    {
+        "title": "行李存放",
+        "classcode": "xlcf"
+    },
+    {
+        "title": "銀行",
+        "classcode": "yh"
+    },
+    {
+        "title": "吸煙室",
+        "classcode": "xys"
+    }
+]

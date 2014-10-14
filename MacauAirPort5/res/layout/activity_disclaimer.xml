@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@color/text_white">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+            android:src="@drawable/logo" android:layout_marginTop="48dp" android:layout_marginBottom="48dp"
+            />
+       <!--  <TextView android:id="@id/tv1" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/copyright" 
+            android:padding="8dp"/> -->
+        <TextView android:id="@id/tv2" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/disclaimer_of_interest" 
+            android:padding="8dp" android:visibility="visible"/>
+        <!-- <TextView android:id="@id/tv3" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="使用說明 : 經營商授予你有限度、非專有、不可轉讓的權利並按照本條款與細則使用本網站。你同意以下細項：
+(a) 你只可使用本網站作合法訂位或購物用途，並不得使用本網站作任何其他用途，包括但不限於進行任何投機、虛假或欺詐訂位，或由於預期需求上升而作炒賣訂位。
+(b) 在透過本網站傳輸的任何通訊（包括電郵在內）的頁首、頁尾、回覆路徑或任何部分，不得採用有誤導成份的電郵地址或捏改資料。
+(c) 除屬於法律允許外，如未得經營商及／或其第三者供應商及發行商事前的書面准許，不得複印、複製、重新刊發、上載、刊登、傳輸、發行或以其他方式向公眾傳達 本網站所提供的任何內容，包括內文、圖形、按鈕圖符、影音片段、數碼下載、數據編譯及軟件。你只可下載、顯示及打印本網站內容資料作為你個人而非商業用途。
+(d) 如未得經營商事前的書面准許，不得使用「自動機」、「網路蜘蛛」或其他自動化裝置，或具有類似程序或功能的程式、算法或方法或任何人工程序，作為監察或複製本網站出現的任何網頁、數據或內容。
+(e) 除屬於法律准許外，不得擅自改動、修改、翻譯、解編譯、改編、反匯編、逆向研製本網站之任何內容或組成部分，或製作衍生作品。
+(f) 不得將本網站出現的任何網頁、數據或內容，傳輸或以其他方式轉移予任何其他電腦、伺服器、網站或其他媒體作大量發行或供任何商業機構使用。禁止在任何其他網站或任何網絡電腦環境使用有關物品。
+(g) 不得使用任何裝置、軟件或例行程式干擾或試圖干擾本網站的正常運作。
+(h) 不得採取任何行動，以致對本網站的基建構成令經營商認為你使用本網站時經營商所獲得的利益不合理或不成比例的負擔或負荷。
+(i) 不得按未經許可方式使用本網站或本網站所載的物品，以致違反版權、商標或其他知識產權法例或其他法例。你必須留存所有有關物品所載的版權及商標通告，包括任何其他專利通告在內，而你亦不得改動、掩蔽或塗改任何有關通告。
+(j) 你不得刊載或傳輸任何非法、有威脅性、誹謗性、淫褻、不雅、煽動性、色情或下流物品，以致構成或鼓吹進行被視為刑事罪行、產生民事責任或以其他方式違反任何法例、適用規例或操守守則的任何物品。
+(k) 你不得刊載或傳輸 (i) 任何侵害其他人權利，違反其他人私隱或宣傳權利的資料，(ii) 任何受版權、商標或其他專利權利保障的資料，除非獲得有關權利的擁有人明確書面准許，則屬例外，(iii) 任何載有病毒、故障、電腦臭蟲、計時炸彈、特洛依木馬、陷阱程式或其他有害項目的資料，(iv) 任何用作違法串謀對付其他人的資料，藉以阻撓交易或比賽，或 (v) 任何令經營商產生法律責任或喪失本網站的互聯網服務供應商或其他供應商的全部或部分服務的資料。
+你同意獨自負責因你使用本網站所產生任何版權、商標或其他專利的侵權所造成的損害或任何其他損失或傷害。
+" 
+            android:padding="8dp"/> -->
+        
+    </LinearLayout>
+
+</ScrollView>
+<View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

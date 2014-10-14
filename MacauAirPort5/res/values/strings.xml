@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="available">该应用未经授权，被迫退出!</string>
+   <!--  tab 切换 -->
+    <string name="app_name">澳門國際機場</string>
+    <string name="home">首頁</string>
+    <string name="flight">航班</string>
+    <string name="news">新聞</string>
+    <string name="service">服務</string>
+    <string name="more">更多</string>
+    <!-- 右上角的离开 -->
+    <string name="leave">離開</string>
+    <!-- 航班详情里的澳门 -->
+    <string name="Macau">澳門</string>
+    
+    <!--   首页有关的 -->
+    <string name="home_arrive_realtime">實時抵澳</string>
+    <string name="home_departure_realtime">實時離澳</string>
+    <string name="home_air_plan">航班時刻</string>
+    <string name="home_map">機場地圖</string>
+    <string name="home_questionaire">問卷</string>
+    <string name="home_hotline">熱線</string>
+    
+    <!--   航班有关的 -->
+    <string name="flight_title">航班信息</string>
+    <string name="flight_arrive_realtime">實時抵澳航班</string>
+    <string name="flight_departure_realtime">實時離澳航班</string>
+    <string name="flight_from_macau">澳門出發</string>
+    <string name="flight_to_macau">到達澳門</string>
+    <string name="flight_search_info_city">您可以選擇城市名查詢</string>
+    <string name="flight_search_info_number">或選擇航班號查詢</string>
+    <string name="flight_city_to">到達城市:</string>
+    <string name="flight_city_from">出發城市:</string>
+    <string name="flight_number_hint">輸入航班號</string>
+    <string name="search">搜索</string>
+    <string name="search_introduction">查詢使用說明</string>
+   <!--   新闻有关 -->
+    <string name="news_airport">機場新聞</string>
+    <string name="news_important">重要信息</string>
+    <string name="news_more">如需了解更多請訪問澳門機場官方網站</string>
+    
+     <!-- 服务相关 -->
+    <string name="service_facility">機場設施</string>
+    <string name="service_map">地圖</string>
+    <string name="service_shop">機場免稅店</string>
+    <string name="service_restaurants">機場餐飲</string>
+    <string name="service_transportation">機場交通</string>
+    <string name="service_vip_room">貴賓室</string>
+    <string name="Travel_Service">旅行預訂服務</string>
+    <string name="Airport_Service">機場豪華專車服務</string>
+    <string name="Express_Link">直通快線服務 </string>
+    <string name="Airport_Lounge">機場貴賓室</string>
+    <string name="Coming_soon">建設中</string>
+    
+   <!--  更多相关 -->
+    <string name="more_language">語言設置</string>
+    <string name="more_questionnaire">問卷調查</string>
+    <string name="more_book">旅行預訂</string>
+    <string name="more_link">電話</string>
+    <string name="more_version">版本信息</string>
+    <string name="more_about">關於澳門國際機場</string>
+    <string name="disclaimer">免責聲明</string>
+    <string name="disclaimer_of_interest">
+        © 2014 澳門國際機場版權所有. 此App由機場信息管理技術有限公司維護
+\n\n免責聲明 : 你明確地知道並同意，本程式所提供之內容及廣告有部分是由第三者提供，我們對此沒有控制權。你須自行承擔瀏覽該等內容所涉及的風險。
+\n\n使用說明 : 經營商授予你有限度、非專有、不可轉讓的權利並按照本條款與細則使用本網站。你同意以下細項：
+\n(a) 你只可使用本網站作合法訂位或購物用途，並不得使用本網站作任何其他用途，包括但不限於進行任何投機、虛假或欺詐訂位，或由於預期需求上升而作炒賣訂位。
+\n(b) 在透過本網站傳輸的任何通訊（包括電郵在內）的頁首、頁尾、回覆路徑或任何部分，不得採用有誤導成份的電郵地址或捏改資料。
+\n(c) 除屬於法律允許外，如未得經營商及／或其第三者供應商及發行商事前的書面准許，不得複印、複製、重新刊發、上載、刊登、傳輸、發行或以其他方式向公眾傳達 本網站所提供的任何內容，包括內文、圖形、按鈕圖符、影音片段、數碼下載、數據編譯及軟件。你只可下載、顯示及打印本網站內容資料作為你個人而非商業用途。
+\n(d) 如未得經營商事前的書面准許，不得使用「自動機」、「網路蜘蛛」或其他自動化裝置，或具有類似程序或功能的程式、算法或方法或任何人工程序，作為監察或複製本網站出現的任何網頁、數據或內容。
+\n(e) 除屬於法律准許外，不得擅自改動、修改、翻譯、解編譯、改編、反匯編、逆向研製本網站之任何內容或組成部分，或製作衍生作品。
+\n(f) 不得將本網站出現的任何網頁、數據或內容，傳輸或以其他方式轉移予任何其他電腦、伺服器、網站或其他媒體作大量發行或供任何商業機構使用。禁止在任何其他網站或任何網絡電腦環境使用有關物品。
+\n(g) 不得使用任何裝置、軟件或例行程式干擾或試圖干擾本網站的正常運作。
+\n(h) 不得採取任何行動，以致對本網站的基建構成令經營商認為你使用本網站時經營商所獲得的利益不合理或不成比例的負擔或負荷。
+\n(i) 不得按未經許可方式使用本網站或本網站所載的物品，以致違反版權、商標或其他知識產權法例或其他法例。你必須留存所有有關物品所載的版權及商標通告，包括任何其他專利通告在內，而你亦不得改動、掩蔽或塗改任何有關通告。
+\n(j) 你不得刊載或傳輸任何非法、有威脅性、誹謗性、淫褻、不雅、煽動性、色情或下流物品，以致構成或鼓吹進行被視為刑事罪行、產生民事責任或以其他方式違反任何法例、適用規例或操守守則的任何物品。
+\n(k) 你不得刊載或傳輸 
+\n(i) 任何侵害其他人權利，違反其他人私隱或宣傳權利的資料，
+\n(ii) 任何受版權、商標或其他專利權利保障的資料，除非獲得有關權利的擁有人明確書面准許，則屬例外，
+\n(iii) 任何載有病毒、故障、電腦臭蟲、計時炸彈、特洛依木馬、陷阱程式或其他有害項目的資料，
+\n(iv) 任何用作違法串謀對付其他人的資料，藉以阻撓交易或比賽，或
+\n (v) 任何令經營商產生法律責任或喪失本網站的互聯網服務供應商或其他供應商的全部或部分服務的資料。
+\n\n你同意獨自負責因你使用本網站所產生任何版權、商標或其他專利的侵權所造成的損害或任何其他損失或傷害。
+        </string>
+    <string name="copyright">© 2014 澳門國際機場版權所有. 此App由機場信息管理技術有限公司維護</string>
+    <string name="travel_book_info">旅遊出行,一網打盡 \n\n從全球機票查詢到在線預訂、從旅行保險組合到在線投保、從酒店搜尋到在線預訂、從租車選擇到目的地提車,盡在澳門機場商業網站 “享遊天下”!</string>
+    <string name="about_introduction" formatted="false">
+                              澳門國際機場專營股份有限公司(CAM)屬一家私營機構，成立於1989年1月18日，註冊資本為澳門元40億。於2012年進行增資後，現時資本為澳門元49.6億。它是澳門國際機場之承建商及業權人，由澳門特區政府委任為澳門國際機場之經營者，獲授25年的專營合約，負責機場之興建和營運。2001年3月獲特區政府延長經營權至2039年，主要負責機場發展、財務安排及市場拓展和推廣。
+                      \n\nCAM一直致力向國際航空界宣傳及推廣澳門國際機場，其市場策略是確保能提供世界級水準之機場服務和設施。為了達致目標，CAM將繼續致力完善客運及貨運設施。
+                      \n\n在股權分配方面，澳門特區政府佔55.24%，澳門娛樂有限公司佔33.03%，餘下股份分別由中資及本地的商家和社會機構擁有。
+                      \n\n為確保機場達到國際標準的運作效率，CAM以合約形式，將機場運作的主要環節授權予多間專業服務公司管理。</string>
+    
+    <!-- 旅行预订相关 -->
+    <string name="travel_book">預訂您的旅程</string>
+   <!--  航班列表 -->
+    <string name="airline">航空\n公司</string>
+    <string name="from">出發地</string>
+    <string name="to">到達地</string>
+    <string name="flight_num">航班號</string>
+    <string name="plan_time">計劃\n時間</string>
+    <string name="valve">登機口</string>
+    <string name="flight_state">航班\n狀態</string> 
+    <string name="flight_start_time">出發\n時間</string> 
+    <string name="flight_end_time">到達\n時間</string> 
+    <string name="flight_information">航班信息通知</string> 
+    <string name="no_flight_day">亲，该日没有航班</string> 
+    <string name="not_valid_flight_number">您所查詢的航班號有誤，請重新輸入</string> 
+    
+   <!--  航班详情     -->
+    <string name="check_in_counter">值機櫃檯：</string>
+    <string name="boarding_gate">登機口：</string>
+    <string name="arrive_time">到達時間</string>
+    <string name="departure_time">離港時間</string>
+    <string name="flight_detail_state">航班狀態:</string> 
+    
+   <!--  机场设施-->
+    <string name="cafe">咖啡廳</string>
+    <string name="bank">銀行</string>
+    <string name="tourist_information">旅遊詢問處</string>
+    <string name="atm">自動提款機</string>
+    <string name="circle_k">便利店</string>
+    <string name="fast_food">快餐店</string>
+    <string name="currency_exchange">貨幣兌換店</string>
+    <string name="virtual_assistance">虛擬助理</string>
+    <string name="beverage_vending_machine">飲水壹</string>
+    <string name="book_shop">書店</string>
+    <string name="mc_donalds">麥當勞</string>
+    <string name="smoking_lounge">吸煙室</string>
+    <string name="airport_lounge">貴賓室</string>
+    <string name="red_cross_society">紅十字會</string>
+    <string name="toilets">洗手間</string>
+    <string name="left_baggage">行李寄存</string>
+    <string name="lost_found">失物認領處</string>
+    <string name="parking">停車場</string>
+    <string name="mobile_phone_charging_wifi">手機加油站</string>
+    <string name="post_office">郵政局</string>
+    <string name="vip_lounge">貴賓休息室</string>
+    <string name="telephone">電話亭</string>
+    <string name="duty_free">免稅商店</string>
+    
+    <!-- 星期 -->
+	<string name="Mon">一</string>
+	<string name="Tue">二</string>
+	<string name="Wed">三</string>
+	<string name="Thu">四</string>
+	<string name="Fri">五</string>
+	<string name="Sat">六</string>
+	<string name="Sun">日</string>
+	<string name="today">今天</string>
+    
+   <!--  机场交通-->
+    <string name="traffic_direct_fast_line">直通快線</string>
+    <string name="traffic_airport_limo_service">豪華專車</string>
+    <string name="traffic_bus">公共巴士</string>
+    <string name="traffic_taxi">的士</string>
+    <string name="traffic_cross_border_coach">跨境客運</string>
+    <string name="book_now">立即預訂</string>
+    
+   <!--  机场电话-->
+    <string name="hotline_tel_airline">機場電話</string>
+    <string name="hotline_tel_emergency">緊急呼叫</string>
+    <string name="emergency_text">999   報警、火警、急救</string>
+    <string name="questionNaire_unavailable">亲，当前没有问卷哦！</string>
+    <string name="version_update_info">有新版本，是否升级？</string>
+    <string name="update">升级</string>
+    <string name="flash_is_need_to_display_the_map">需要下载Flash才能访问该地图</string>
+    <string name="download">下载</string>
+    <string name="version_is_new">當前已經是最新版本</string>
+    
+    
+    
+     <!--  城市列表 -->
+    <string name="city_title_from">出發地城市列表</string>
+    <string name="city_title_to">到達地城市列表</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+ <string name="error">加载数据出现错误，请稍候再试...</string>
+    <string name="load">正在加载数据，请稍候...</string>
+    <string name="no_data">抱歉,未获取到数据</string>
+    <string name="please_wait">正在加载数据，请稍候 ...</string>
+    <string name="pull_to_next">点击获取更多...</string>
+    <string name="pull_to_loading">正在加载...</string>
+    <string name="failure">数据加载失败，请稍后再试！</string>
+        <string name="no_connections_for_flight">网络好像不给力哦，如需预订机票请拨打热线400-6858-999</string>
+    <string name="no_connections_for_hotel">网络好像不给力哦，如需预订酒店请拨打热线400-6858-999</string>
+    <string name="no_connections_for_car">网络好像不给力哦，如需预订租车请拨打热线400-6858-999</string>
+        <string name="no_connections">网络好像不给力哦，请稍候再试</string>
+        <string name="timeout_exit">长时间未操作，为您账号安全，已自动退出，请重新登录！</string>
+            <string name="btn_sure_text">确定</string>
+    <string name="btn_cancle">取消</string>
+    
+ <!--    下拉刷新等提示 -->
+ <!-- 下拉刷新 Pull to refresh
+鬆開刷新 Loose to refresh
+上次刷新時間 Last refresh time
+本次刷新時間 This refresh time
+正在刷新 Refreshing -->
+ 
+  <string name="pull_to_refresh">下拉刷新 </string>
+  <string name="loose_to_refresh">鬆開刷新 </string>
+  <string name="last_refresh_time">上次刷新时间： </string>
+  <string name="this_refresh_time">本次刷新时间：</string>
+  <string name="refresh_time">刷新时间：</string>
+  <string name="refreshing">正在刷新...</string>
+  
+</resources>

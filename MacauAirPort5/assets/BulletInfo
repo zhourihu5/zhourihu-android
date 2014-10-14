@@ -1,0 +1,24 @@
+{
+    "bulletinInfo": [
+        {
+            "no": "222",
+            "imgUrl": "/jjj.jpg",
+            "url": "http://www.sohu.com"
+        },
+        {
+            "no": "111",
+            "imgUrl": "/jjj.jpg",
+            "url": "http://www.sohu.com"
+        },
+        {
+            "no": "333",
+            "imgUrl": "/jjj.jpg",
+            "url": "http://www.sohu.com"
+        },
+        {
+            "no": "444",
+            "imgUrl": "/jjj.jpg",
+            "url": "http://www.sohu.com"
+        }
+    ]
+}

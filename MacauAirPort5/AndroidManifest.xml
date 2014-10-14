@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aims.mia"
+    android:versionCode="1"
+    android:versionName="2.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+         <!-- Push service 运行需要的权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />  
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+        <!-- 语言设置权限 -->
+        <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+        
+        <uses-permission android:name="android.permission.CALL_PHONE"/>
+        
+    
+    <application android:name="com.sinoglobal.app.activity.FlyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.sinoglobal.app.activity.MainActivityGroup"
+            android:label="@string/app_name" android:screenOrientation="portrait"
+            android:configChanges="locale|orientation|keyboardHidden"> <!-- 捕捉语言变化 -->
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.WelcomActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.sinoglobal.app.activity.HomeActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.FlightActivity" android:screenOrientation="portrait"
+             android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize"
+             android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.NewsActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.NewsDetailActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.ServeActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.MoreActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.DisclaimerActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.FlightListActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.FlightDetailActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.WebViewActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.FlightPlanSeachActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.FacilityActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.MapActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.MapDetailActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.TrafficActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.HotLineActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.CityActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.VersionInfoActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.AboutActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.activity.TravelBookActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.newversion.VersionUpgradeActivity" android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.widget.calendar.FlightCalendarActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:name="com.sinoglobal.app.widget.calendar.CalendarFlightListActivity" android:screenOrientation="portrait">
+            
+        </activity>
+             <!-- push富媒体，不使用富媒体推送不需要 -->
+        <activity
+            android:name="com.baidu.android.pushservice.richmedia.MediaViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="MediaViewActivity" >
+        </activity>
+        <activity
+            android:name="com.baidu.android.pushservice.richmedia.MediaListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="MediaListActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <!-- push富媒体结束 -->
+        
+        <!-- push应用定义消息receiver声明 -->
+      <receiver android:name="com.sinoglobal.app.receiver.MyPushMessageReceiver">
+            <intent-filter>
+            <!--     接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+              <!--   接收bind,unbind,fetch,delete等反馈消息 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver> 
+        
+        <!-- push必须的receviver和service声明 -->
+        <receiver android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package" />
+            </intent-filter>                   
+        </receiver>
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":bdservice_v1"  >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.sinoglobal.app.newversion.DownloadService"></service>
+        <!-- push结束 -->
+        
+		<!-- 在百度开发者中心查询应用的API Key -->
+        <meta-data android:name="api_key" android:value="uvDSivGRBwsV7jGgsDwOz6qf" />
+        <meta-data
+            android:name="CHANNEL_ID"
+            android:value="myChannelId" />
+       <!-- 友盟账号 604377569@qq.com -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="541bfc0bfd98c5a7a2001dab" >
+        </meta-data>
+        <!-- 渠道id -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="myChannelId" />
+    </application>
+
+</manifest>

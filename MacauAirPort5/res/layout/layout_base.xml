@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/text_white" >
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/home_bottom_rg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <RadioButton 
+            android:id="@+id/home_bottom_rb_home"
+            style="@style/radio_home_selector"
+            android:background="@drawable/bg_menu_left_selector"
+            android:text="@string/home"
+            android:gravity="center"
+            android:drawableTop="@drawable/icon_index_selector"
+            android:drawablePadding="8dp"
+             />
+
+
+        <RadioButton
+            android:id="@+id/home_bottom_rb_flight"
+            style="@style/radio_home_selector"
+            android:gravity="center"
+            android:drawablePadding="8dp"
+            android:background="@drawable/bg_menu_middle_selector"
+            android:text="@string/flight"
+            android:drawableTop="@drawable/icon_airplan_selector"
+           />
+
+        <RadioButton
+            android:id="@+id/home_bottom_rb_news"
+           style="@style/radio_home_selector"
+            android:gravity="center"
+            android:drawablePadding="8dp"
+            android:background="@drawable/bg_menu_middle_selector"
+            android:text="@string/news"
+            android:drawableTop="@drawable/icon_news_selector"/>
+        
+        <RadioButton
+            android:id="@+id/home_bottom_rb_service"
+             style="@style/radio_home_selector"
+            android:gravity="center"
+            android:drawablePadding="8dp"
+            android:background="@drawable/bg_menu_middle_selector"
+            android:text="@string/service"
+            android:drawableTop="@drawable/icon_services_selector"/>
+
+        <RadioButton
+            android:id="@+id/home_bottom_rb_more"
+           style="@style/radio_home_selector"
+            android:gravity="center"
+            android:drawablePadding="8dp"
+            android:background="@drawable/bg_menu_right_selector"
+            android:text="@string/more"
+            android:drawableTop="@drawable/icon_more_selector"/>
+    </RadioGroup>
+
+</LinearLayout>

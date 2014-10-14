@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_bar_height">48dip</dimen>
+    <dimen name="side_dialog">85dip</dimen>
+    <dimen name="margin_left_right">8dip</dimen>
+    <dimen name="margin_top">10dip</dimen>
+    <dimen name="margin_top_es">5dip</dimen>
+    <dimen name="text_reversion">14sp</dimen>
+    <dimen name="filter_text_padding">5dip</dimen>
+    <dimen name="text_flight_detail_big">20sp</dimen>
+    
+      <dimen name="calendar_day_headers_paddingbottom">4dp</dimen>
+  <dimen name="calendar_month_topmargin">16dp</dimen>
+  <dimen name="calendar_month_title_bottommargin">4dp</dimen>
+  <dimen name="calendar_text_medium">18sp</dimen>
+  <dimen name="calendar_text_small">14sp</dimen>
+  
+  
+  <dimen name="text_d">12sp</dimen>
+  
+  <dimen name="nine_margin">8dp</dimen>
+  
+  
+</resources>

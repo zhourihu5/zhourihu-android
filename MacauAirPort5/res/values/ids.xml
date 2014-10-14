@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+     <item type="id" name="view_mainBody">false</item>
+     <item type="id" name="view_progress">false</item>
+     <item type="id" name="title_text">false</item>      <!-- 标题 -->
+     <item type="id" name="title_but_left">false</item>  <!-- 标题左则Button -->
+     <item type="id" name="title_but_right">false</item>  <!-- 标题右则Button -->
+     <item type="id" name="title_but_right_forget">false</item>  <!-- 标题右则忘记密码Button -->
+     <item type="id" name="title_image_left">false</item>
+     
+     <item type="id" name="tvtext">false</item> 
+     <item type="id" name="load_id">false</item> 
+     <item type="id" name="title_iv_id">false</item> 
+     <item type="id" name="more_id">false</item> 
+     <item type="id" name="iv_id">false</item> 
+     <item type="id" name="lv_id">false</item> 
+     <item type="id" name="lv_id2">false</item> 
+     <item type="id" name="tv_id">false</item> 
+     <item type="id" name="et_id">false</item> 
+     <item type="id" name="gv_id">false</item> 
+     <item type="id" name="ll_id">false</item> 
+     <item type="id" name="bt_id">false</item> 
+     <item type="id" name="bt_id1">false</item> 
+     <item type="id" name="bt_id2">false</item> 
+     <item type="id" name="bt_id3">false</item> 
+     <item type="id" name="bt_id4">false</item> 
+     <item type="id" name="bt_id5">false</item> 
+     <item type="id" name="bt_id6">false</item> 
+     <item type="id" name="bt_id7">false</item> 
+     <item type="id" name="bt_id8">false</item> 
+     <item type="id" name="bt_id9">false</item> 
+     
+     <item type="id" name="fl_id">false</item> 
+     <item type="id" name="search">false</item> 
+     <item type="id" name="radio1">false</item> 
+     <item type="id" name="radio2">false</item> 
+     <item type="id" name="radio3">false</item> 
+     <item type="id" name="radio4">false</item> 
+     
+     <item type="id" name="rangeSeekBar">false</item> 
+     <item type="id" name="custom_linearylay5_id">false</item> 
+     <item type="id" name="lcd_id">false</item> 
+     <item type="id" name="less">false</item> 
+     <item type="id" name="flight_takeoff_id">false</item> 
+     <item type="id" name="date_id">false</item> 
+     <item type="id" name="week_id">false</item> 
+     <item type="id" name="flight_return_id">false</item> 
+     <item type="id" name="today_message">false</item> 
+     <item type="id" name="today_btn">false</item> 
+     <item type="id" name="tv16">false</item> 
+     <item type="id" name="title_post">false</item> 
+     
+     
+     
+     <item type="id" name="endtv4">false</item> 
+     <item type="id" name="endtv5">false</item> 
+     <item type="id" name="endtv3">false</item> 
+     <item type="id" name="endtv2">false</item> 
+     <item type="id" name="endtv7">false</item> 
+     <item type="id" name="endtv8">false</item> 
+     <item type="id" name="endtv9">false</item> 
+     <item type="id" name="endtv10">false</item> 
+     <item type="id" name="endtv11">false</item> 
+     <item type="id" name="endtv16">false</item> 
+     <item type="id" name="endtv12">false</item> 
+     <item type="id" name="endtv1">false</item> 
+     <item type="id" name="endtv15">false</item> 
+     <item type="id" name="endtv">false</item> 
+     <item type="id" name="endtv13">false</item> 
+     
+     <item type="id" name="ticket_id">false</item>
+     <item type="id" name="tv1">false</item>
+     <item type="id" name="tv2">false</item>
+     <item type="id" name="tv4">false</item>
+     <item type="id" name="tv6">false</item>
+     <item type="id" name="tv7">false</item>
+     <item type="id" name="tv8">false</item>
+     <item type="id" name="tv9">false</item>
+     <item type="id" name="tv10">false</item>
+     <item type="id" name="tv11">false</item>
+     <item type="id" name="tv22">false</item>
+     <item type="id" name="tv33">false</item>
+     
+     <item type="id" name="wv">false</item>
+     
+     
+     
+    <item type="id" name="iv1">false</item>
+    <item type="id" name="down_pb">false</item>
+    <item type="id" name="tv">false</item>
+    <item type="id" name="edit">false</item>
+    
+    <!--home航班模块  -->
+    <item type="id" name="btn_fly">false</item>
+    <item type="id" name="home_index_flight">false</item>
+    <item type="id" name="btn_hotel">false</item>
+    <item type="id" name="btn_my_app">false</item>
+    <item type="id" name="btn_fly_see">false</item>
+    <item type="id" name="btn_around_search">false</item>
+    <item type="id" name="btn_train">false</item>
+    <item type="id" name="start_contry">false</item>
+    <item type="id" name="end_contry">false</item>
+    <item type="id" name="get_calendar">false</item>
+    <item type="id" name="side_bar">false</item>
+    <item type="id" name="lv_index_bar">false</item>
+    <item type="id" name="one_way">false</item>
+    <item type="id" name="come_and_go">false</item>
+    <item type="id" name="linearlayout_dummy">false</item>
+    <item type="id" name="linearlayout_home">false</item>
+    
+   <!-- button -->
+   <item type="id" name="login">false</item>
+   <item type="id" name="finish">false</item>
+   <item type="id" name="view1">false</item>
+   <item type="id" name="view2">false</item>
+   <item type="id" name="view3">false</item>
+   <item type="id" name="view4">false</item>
+   <item type="id" name="view5">false</item>
+   <item type="id" name="view6">false</item>
+   <item type="id" name="rl_id">false</item>
+   <item type="id" name="rl_id2">false</item>
+   <item type="id" name="rl_id3">false</item>
+   <item type="id" name="user_pwd">false</item>
+   <item type="id" name="btn">false</item>
+   <item type="id" name="btn_1">false</item>
+   <item type="id" name="btn_2">false</item>
+   <item type="id" name="btn_3">false</item>
+   <item type="id" name="btn_4">false</item>
+   <item type="id" name="btn_5">false</item>
+   <item type="id" name="btn_6">false</item>
+   <item type="id" name="btn_7">false</item>
+   <item type="id" name="btn_8">false</item>
+   <item type="id" name="btn_9">false</item>
+   <item type="id" name="btn_10">false</item>
+   <item type="id" name="btn_11">false</item>
+   <item type="id" name="btn_12">false</item>
+   <item type="id" name="btn_13">false</item>
+   <item type="id" name="btn_14">false</item>
+   <item type="id" name="btn_15">false</item>
+   <item type="id" name="btn_16">false</item>
+   <item type="id" name="btn_17">false</item>
+   <item type="id" name="btn_18">false</item>
+   <item type="id" name="btn_19">false</item>
+   <item type="id" name="btn_20">false</item>
+   <item type="id" name="btn_21">false</item>
+   <item type="id" name="btn_22">false</item>
+   <item type="id" name="btn_23">false</item>
+   
+   <item type="id" name="lv_info_id">false</item>
+   
+    <item type="id" name="viewpager">false</item>
+   
+    <!-- image -->
+   <item type="id" name="image">false</item>
+   <item type="id" name="icon">false</item>
+   <item type="id" name="date_2">false</item>
+   <!-- text -->
+   <item type="id" name="text1">false</item>
+   <item type="id" name="text2">false</item>
+   <item type="id" name="text3">false</item>
+   <item type="id" name="text4">false</item>
+   <item type="id" name="text5">false</item>
+   <item type="id" name="text6">false</item>
+   <item type="id" name="text7">false</item>
+   <item type="id" name="text8">false</item>
+   <item type="id" name="text9">false</item>
+   <item type="id" name="text10">false</item>
+   <item type="id" name="text11">false</item>
+   <item type="id" name="text12">false</item>
+   <item type="id" name="text13">false</item>
+   <item type="id" name="text14">false</item>
+   <item type="id" name="text15">false</item>
+   <item type="id" name="custom_linearylay3_id">false</item>
+   <item type="id" name="custom_linearylay1_id">false</item>
+   <item type="id" name="custom_linearylay2_id">false</item>
+   <item type="id" name="edit1">false</item>
+   <item type="id" name="edit2">false</item>
+   <!-- listview -->
+   <item type="id" name="listview">false</item>
+   <item type="id" name="btn_add_new_passenger">false</item>
+   <item type="id" name="btn_add_passenger">false</item>
+   <item type="id" name="checkbox_id">false</item>
+   <item type="id" name="cb_1">false</item>
+   <item type="id" name="cb_2">false</item>
+   <item type="id" name="cb_3">false</item>
+   <item type="id" name="cb_4">false</item>
+   <!-- 添加乘机人 -->
+   <item type="id" name="btn_submit">false</item>
+   <item type="id" name="include_id">false</item>
+   <item type="id" name="il1">false</item>
+   <item type="id" name="l1">false</item>
+   <item type="id" name="l2">false</item>
+   <item type="id" name="l3">false</item>
+   <item type="id" name="l4">false</item>
+   <item type="id" name="l5">false</item>
+   <item type="id" name="l6">false</item>
+   <item type="id" name="l7">false</item>
+   <item type="id" name="l8">false</item>
+   <item type="id" name="l9">false</item>
+   <item type="id" name="l10">false</item>
+   <item type="id" name="editText1">false</item>
+   <item type="id" name="img_id">false</item>
+   <item type="id" name="iv2">false</item>
+   <item type="id" name="iv4">false</item>
+   <item type="id" name="iv5">false</item>
+   <item type="id" name="iv6">false</item>
+   <item type="id" name="ll">false</item>
+   <item type="id" name="user_birthday">false</item>
+   <item type="id" name="tv3">false</item>
+   <item type="id" name="editText2">false</item>
+   <item type="id" name="editText3">false</item>
+   <item type="id" name="editText4">false</item>
+   <item type="id" name="iv3">false</item>
+   <item type="id" name="tv5">false</item>
+   <!-- 删除乘机人 -->
+   <item type="id" name="btn_delete">false</item>
+   <!-- 相对布局 -->
+   <item type="id" name="rely">false</item>
+   <item type="id" name="rely2">false</item>
+   <!-- 订单填写 -->
+   <item type="id" name="name">false</item>
+   <item type="id" name="papers">false</item>
+   <item type="id" name="id">false</item>
+   <item type="id" name="pay">false</item>
+   
+   <item type="id" name="yearPicker">false</item>
+   <item type="id" name="monthPicker">false</item>
+   <item type="id" name="dayPicker">false</item>
+   <item type="id" name="btn_call">false</item>
+   <item type="id" name="expandable_toggle_button" />
+	<item type="id" name="expandable" />
+	
+	
+	
+	
+</resources>
+
+
+
+
+
+
+
+
+

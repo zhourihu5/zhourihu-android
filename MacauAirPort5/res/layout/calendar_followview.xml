@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/text_white" 
+    android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:paddingTop="8dp"
+            android:text="@string/Sun" android:gravity="center" android:textColor="@color/red"/>
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:paddingTop="8dp"
+            android:text="@string/Mon" android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:paddingTop="8dp"
+            android:text="@string/Tue" android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:paddingTop="8dp"
+            android:text="@string/Wed" android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:paddingTop="8dp"
+            android:text="@string/Thu" android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:paddingTop="8dp"
+            android:text="@string/Fri" android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:paddingTop="8dp"
+            android:text="@string/Sat" android:gravity="center"/>
+    </LinearLayout>
+    <com.sinoglobal.app.widget.calendar.FollowGridView
+        android:id="@+id/GridView_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:cacheColorHint="#00000000"
+        android:numColumns="7" >
+    </com.sinoglobal.app.widget.calendar.FollowGridView>
+
+</LinearLayout>

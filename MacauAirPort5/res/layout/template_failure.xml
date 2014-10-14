@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_fill" android:orientation="vertical"
+    android:layout_gravity="center">
+	<TextView android:id="@id/tv_id" style="@style/layout_fill" android:textColor="@color/gray"
+		android:text="数据加载失败，请稍后重试！" android:textSize="18.0sp"
+		android:gravity="center" android:layout_marginLeft="25dip"
+		android:layout_marginRight="25dip"/>
+</LinearLayout>
