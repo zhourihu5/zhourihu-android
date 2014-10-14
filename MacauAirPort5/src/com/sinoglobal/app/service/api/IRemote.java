@@ -99,7 +99,8 @@ public interface IRemote {
 	public PushMessageVo getNewsDetail(boolean b, String nid)throws Exception;
 	public List<MapDataVo> getFacilityList()throws Exception;
 	public MessageVo getFlightMessageVo(boolean b)throws Exception;
-    
+	/**type=about			type=declare*/
+	public String getAboutOrDeclareInfo(boolean isCache,String type) throws Exception;
 }
 
 

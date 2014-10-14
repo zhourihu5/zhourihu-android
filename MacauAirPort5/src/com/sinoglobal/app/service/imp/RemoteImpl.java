@@ -34,6 +34,8 @@ public class RemoteImpl implements IRemote {
 	String url="http://202.175.83.22:8095/RequestService";//  肖勇写的后台接口
 	static String language="zh-cn".equals(FlyApplication.language)?"chinese":"english";
 	//getMessage&language=english  或者 chinese
+//	关于澳门机场和申明，在后台都有维护，分别是type=about
+//			type=declare
 
 	private RemoteImpl() {
 	}
@@ -65,7 +67,21 @@ public class RemoteImpl implements IRemote {
 //		return JSON.parseArray(TestJson.getBannerList(), BannerVo.class);
 
 	}
-
+	/**type=about			type=declare*/
+	public String getAboutOrDeclareInfo(boolean isCache,String type) throws Exception {
+		Map<String, Object> params = new HashMap<String, Object>();
+		params.put("actionType", type);
+		params.put("language", language);
+		String json =null;
+		if (isCache) {
+			json = FileLocalCache.loadFileCache(FileLocalCache.getFileName(url, params));
+			LogUtil.e("缓存返回====>" , json==null?"null":json);
+		} else {
+			json = ConnectionUtil.get(url,params,true);
+			LogUtil.e("网络返回====>:  ", json);
+		}
+		return json;
+	}
 	@Override
 	public List<FlightVo> getFlightListRealTimeVo(boolean isCache,String type) throws Exception {
 		Map<String, Object> params = new HashMap<String, Object>();
@@ -88,7 +104,7 @@ public class RemoteImpl implements IRemote {
 		}
 		return JSON.parseArray(json, FlightVo.class);
 	}
-
+	
 	@Override
 	public List<String> getCityList(boolean isCache,String type) throws Exception {
 		Map<String, Object> params = new HashMap<String, Object>();
@@ -118,7 +134,7 @@ public class RemoteImpl implements IRemote {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+    
 	@Override
 	public VersionVo geVersionVo(boolean isCache) throws Exception {
 		Map<String, Object> params = new HashMap<String, Object>();
