@@ -5,7 +5,7 @@ import android.util.Log;
 public class LogUtil {
 
 	private static final String TAG="--LogUtil--";
-	public static final boolean FLAG=false;  //测试环境为true,生产环境为false
+	public static final boolean FLAG=true;  //测试环境为true,生产环境为false
 	
 	public static void i(Object message){
 		if(FLAG){
