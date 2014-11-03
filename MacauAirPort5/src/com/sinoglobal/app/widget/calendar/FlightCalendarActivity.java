@@ -1,30 +1,21 @@
 package com.sinoglobal.app.widget.calendar;
 
-import java.util.Date;
-import java.util.List;
-
-import net.tsz.afinal.FinalDb;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.ExpandableListView;
+import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 import android.widget.TextView;
 
+import com.aims.mia.R;
 import com.sinoglobal.app.activity.AbstractActivity;
 import com.sinoglobal.app.activity.FlightActivity;
-import com.sinoglobal.app.activity.FlightListActivity;
-import com.sinoglobal.app.activity.MainActivityGroup;
 import com.sinoglobal.app.beans.FlightListVo;
-import com.sinoglobal.app.beans.FlightVo;
 import com.sinoglobal.app.service.imp.RemoteImpl;
 import com.sinoglobal.app.util.LogUtil;
 import com.sinoglobal.app.util.TextUtil;
-import com.sinoglobal.app.util.TimeUtil;
 import com.sinoglobal.app.util.constants.IntentConstants;
-import com.aims.mia.R;
 
 public class FlightCalendarActivity extends AbstractActivity {
 
@@ -45,46 +36,11 @@ public class FlightCalendarActivity extends AbstractActivity {
 		LogUtil.i("city=="+city);
 		initView();
 		loadData();
-		//		expandableListView.setOnGroupClickListener(new OnGroupClickListener() {
-		//			
-		//			@Override
-		//			public boolean onGroupClick(ExpandableListView expandableListView, View groupView, int groupPosition,
-		//					long id) {
-		//				for(int i = 0; i < adapter.getGroupCount(); i++){
-		//					if (i != groupPosition && expandableListView.isGroupExpanded(groupPosition)) { 
-		//						expandableListView.collapseGroup(i);
-		//					}
-		//					
-		//				}
-		//				expandableListView.setSelectedGroup(groupPosition);
-		//				expandableListView.expandGroup(groupPosition);
-		//				
-		//				return false;
-		//			}
-		//		});
-		//		expandableListView.setOnGroupCollapseListener(new OnGroupCollapseListener() {
-		//			
-		//			@Override
-		//			public void onGroupCollapse(int arg0) {
-		//				
-		//				
-		//			}
-		//		});
 	}
 	private void initView() {
 		templateButtonRight.setVisibility(View.INVISIBLE);
 		if(isFromHome){
 			templateButtonRight.setVisibility(View.VISIBLE);
-//			templateButtonRight.setOnClickListener(new OnClickListener() {
-//
-//				@Override
-//				public void onClick(View v) {
-//					Intent intent=new Intent(FlightCalendarActivity.this,MainActivityGroup.class);
-//					intent.putExtra(IntentConstants.DATA_INT,R.id.home_bottom_rb_flight);
-//					intent.setFlags(Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT);
-//					startActivity(intent);
-//				}
-//			});
 		}
 		expandableListView = (ExpandableListView) findViewById(R.id.expandableListView);
 		//		adapter = new CalendarAdapter(FlightCalendarActivity.this);
@@ -217,6 +173,7 @@ public class FlightCalendarActivity extends AbstractActivity {
 			//		}
 			adapter = new CalendarAdapter(FlightCalendarActivity.this);
 			adapter.setFlightListVo(result);
+			LogUtil.e("calendarAdapter.getCount=="+adapter.getGroupCount());
 			adapter.setLeave(isLeave);
 			expandableListView.setAdapter(adapter);
 			expandableListView.expandGroup(0);

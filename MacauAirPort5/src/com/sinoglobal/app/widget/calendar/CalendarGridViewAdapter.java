@@ -190,7 +190,7 @@ public class CalendarGridViewAdapter extends BaseAdapter {
 		if (iMonth == iMonthViewCurrentMonth) {
 			convertView.setVisibility(View.VISIBLE);
 		} else {
-			convertView.setVisibility(View.GONE);;
+			convertView.setVisibility(View.GONE);
 		}
 
 		return convertView;

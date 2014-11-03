@@ -8,6 +8,7 @@ import java.util.Date;
 
 import javax.crypto.spec.PSource;
 
+import android.R.integer;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -127,7 +128,9 @@ OnItemClickListener {
 		Calendar nowCalendar=Calendar.getInstance();
 		Calendar overCalendar=Calendar.getInstance();
 		overCalendar.setTimeInMillis(maxValue);
-		return overCalendar.get(Calendar.MONTH)-nowCalendar.get(Calendar.MONTH)+1;
+		int year=overCalendar.get(Calendar.YEAR)-nowCalendar.get(Calendar.YEAR);
+		int month=overCalendar.get(Calendar.MONTH)-nowCalendar.get(Calendar.MONTH)+1;
+		return year*12+month;
 	}
 
 	@Override

@@ -57,6 +57,8 @@ public class CalendarFlightListActivity extends AbstractActivity implements OnIt
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.calendar_search);
 		Intent intent = getIntent();
 		date = (Date) intent.getSerializableExtra("date");
 		itemWidth=intent.getIntExtra(IntentConstants.DATA_INT, itemWidth);
@@ -65,10 +67,6 @@ public class CalendarFlightListActivity extends AbstractActivity implements OnIt
 		isLeave=intent.getBooleanExtra(IntentConstants.DATA_BOOL, false);
 		calStartDate.setTime(date);
 		getWeekOfDayList(calStartDate);
-
-		super.onCreate(savedInstanceState);
-
-		setContentView(R.layout.calendar_search);
 		initView();
 		loadMessageVo();
 	}
