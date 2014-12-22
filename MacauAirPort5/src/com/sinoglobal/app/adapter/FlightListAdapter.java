@@ -43,7 +43,7 @@ public class FlightListAdapter extends BaseAdapter{
 		this.context=contex;
 		this.flightVos=flightVos;
 		fb=FinalBitmap.create(contex);
-		logoUrl="http://202.175.83.22:8096/logo/9C.png?"+TimeUtil.parseDateToString(TimeUtil.sdf1, new Date());
+//		logoUrl="http://202.175.83.22:8096/logo/9C.png?"+TimeUtil.parseDateToString(TimeUtil.sdf1, new Date());
 	}
     public void setData(List<FlightVo> flightVos2) {
     	this.flightVos=flightVos2;

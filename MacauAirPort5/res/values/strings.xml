@@ -32,7 +32,7 @@
     <string name="flight_search_info_number">或選擇航班號查詢</string>
     <string name="flight_city_to">到達城市:</string>
     <string name="flight_city_from">出發城市:</string>
-    <string name="flight_number_hint">輸入航班號</string>
+    <string name="flight_number_hint">請輸入完整的航班號</string>
     <string name="search">搜索</string>
     <string name="search_introduction">查詢使用說明</string>
    <!--   新闻有关 -->
@@ -105,7 +105,7 @@
     <string name="flight_end_time">到達\n時間</string> 
     <string name="flight_information">航班信息通知</string> 
     <string name="no_flight_day">亲，该日没有航班</string> 
-    <string name="not_valid_flight_number">您所查詢的航班號有誤，請重新輸入</string> 
+    <string name="not_valid_flight_number">您所查詢的航班號有誤，請重新輸入。</string> 
     
    <!--  航班详情     -->
     <string name="check_in_counter">值機櫃檯：</string>

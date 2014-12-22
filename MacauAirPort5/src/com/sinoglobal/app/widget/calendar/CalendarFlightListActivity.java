@@ -88,7 +88,7 @@ public class CalendarFlightListActivity extends AbstractActivity implements OnIt
 				if(result!=null&&TextUtil.stringIsNotNull(result.getMessage())){
 					tvHeadTitle.setText(result.getMessage());
 				}else{
-					String time=TimeUtil.parseDateToString(TimeUtil.sdf1,new Date());
+					String time=TimeUtil.parseDateToString(TimeUtil.sdf1,date);
 					tvHeadTitle.setText(time+"  "+getString(R.string.flight_information));
 				}
 			};
@@ -134,10 +134,13 @@ public class CalendarFlightListActivity extends AbstractActivity implements OnIt
 		ArrayList<FlightVo>arrayList=new ArrayList<FlightVo>();
 		if(flightListVo!=null&&flightListVo.getAir()!=null){
 			for(FlightVo flightVo:flightListVo.getAir()){
+				
 				Date dateOver=TimeUtil.parseStringToDate(flightVo.getDateOver());
-				if(dateOver!=null){
+				Date dateBegin=TimeUtil.parseStringToDate(flightVo.getDateBegin());
+				if(dateOver!=null&&dateBegin!=null){
 					dateOver.setTime(dateOver.getTime()+24*60*60*1000);
-					if(dateOver.after(date)){//在航期内
+					dateBegin.setTime(dateBegin.getTime()-24*60*60*1000);
+					if(dateOver.after(date)&&dateBegin.before(date)){//在航期内
 						String weekStr=flightVo.getWeekDay();
 						if(weekStr!=null){
 							if(parseToWeekDay(weekStr.split(",")).contains(weekDay)){//该航班 在改日有航班

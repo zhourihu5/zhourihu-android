@@ -42,7 +42,7 @@ public class DisclaimerActivity extends AbstractActivity {
 	}
 	private void loadData() {
 		try {
-			setView(RemoteImpl.getInstance().getServeDetail(true,"about"));
+			setView(RemoteImpl.getInstance().getServeDetail(true,"declare"));
 		    LogUtil.i("缓存中读取的关于介绍信息 OK");
 		} catch (Exception e1) {
 			// TODO Auto-generated catch block
@@ -55,7 +55,7 @@ public class DisclaimerActivity extends AbstractActivity {
 				public MapDataVo before(Void... params){
 					// TODO Auto-generated method stub
 					try {
-						return RemoteImpl.getInstance().getServeDetail(false,"about");
+						return RemoteImpl.getInstance().getServeDetail(false,"declare");
 					} catch (Exception e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();

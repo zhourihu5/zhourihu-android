@@ -32,8 +32,8 @@
     <string name="flight_search_info_number">Search by Flight No.</string>
     <string name="flight_city_to">Destination:</string>
     <string name="flight_city_from">Origin:</string>
-    <string name="flight_number_hint">Input Flight No.</string>
-    <string name="search">Searching</string>
+    <string name="flight_number_hint">Please input the correct flight number</string>
+    <string name="search">Search</string>
     <string name="search_introduction">Help</string>
     <!-- 新闻有关 -->
     <string name="news_airport">Airport News</string>
