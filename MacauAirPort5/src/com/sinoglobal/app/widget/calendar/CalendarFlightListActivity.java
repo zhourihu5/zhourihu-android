@@ -139,7 +139,7 @@ public class CalendarFlightListActivity extends AbstractActivity implements OnIt
 				Date dateBegin=TimeUtil.parseStringToDate(flightVo.getDateBegin());
 				if(dateOver!=null&&dateBegin!=null){
 					dateOver.setTime(dateOver.getTime()+24*60*60*1000);
-					dateBegin.setTime(dateBegin.getTime()-24*60*60*1000);
+//					dateBegin.setTime(dateBegin.getTime()-24*60*60*1000);
 					if(dateOver.after(date)&&dateBegin.before(date)){//在航期内
 						String weekStr=flightVo.getWeekDay();
 						if(weekStr!=null){
