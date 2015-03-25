@@ -31,7 +31,8 @@ import com.sinoglobal.app.util.http.ConnectionUtil;
 
 public class RemoteImpl implements IRemote {
 	private static IRemote remote;
-	String url="http://202.175.83.22:8095/RequestService";//  肖勇写的后台接口
+//	String url="http://202.175.83.22:8095/RequestService";//  肖勇写的后台接口
+	String url="http://112.91.147.101:8095/RequestService";//  肖勇写的后台接口
 	static String language="zh-cn".equals(FlyApplication.language)?"chinese":"english";
 	//getMessage&language=english  或者 chinese
 //	关于澳门机场和申明，在后台都有维护，分别是type=about

@@ -34,7 +34,8 @@ import com.sinoglobal.app.util.exception.NoDataException;
 public class ConnectionUtil {
 	//	private static final String URL = "http://scly.sinosns.cn/app/send.php";   //四川旅游接口正式
 	//	private static final String URL = "http://www.taiim.com/airport/";   //一期php接口
-	public static final String DOWNLOAD_URL = "http://202.175.83.22:8095/RequestService?actionType=download&file=";//下载文件接口
+//	public static final String DOWNLOAD_URL = "http://202.175.83.22:8095/RequestService?actionType=download&file=";//下载文件接口
+	public static final String DOWNLOAD_URL = "http://112.91.147.101:8095:8095/RequestService?actionType=download&file=";//下载文件接口
 //	public static final String URL = "http://112.91.147.101:88/airport/";   //二期php接口 
 	public static final String URL = "http://www.macau-airport.com/airportapps/";   //二期php接口 
 
